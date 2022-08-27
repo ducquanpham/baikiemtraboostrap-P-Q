@@ -1,0 +1,201 @@
+.my_page {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.my_page .header {
+  background-color: #eeddcc;
+}
+.my_page .header .navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.my_page .header .navbar ul {
+  gap: 0 30px;
+  margin: 0 auto;
+}
+.my_page .header .login {
+  gap: 20px;
+}
+.my_page .header .login .icon-marker {
+  font-size: 40px;
+}
+.my_page .header .login .btn-login {
+  padding: 7px 35px;
+  border: 1px solid 999;
+}
+.my_page .hero {
+  padding-bottom: 175px;
+}
+.my_page .hero .heading {
+  margin-left: auto;
+  padding-left: 50px;
+}
+.my_page .hero .heading .hero-desc {
+  color: #34251f;
+}
+.my_page .hero .heading .btn-hero {
+  background-color: #222;
+  color: #fff;
+  padding: 10px 35px;
+  border-radius: none;
+}
+.my_page .hero .flex-between {
+  gap: 0 170px;
+  align-items: flex-start;
+}
+.my_page .feature .btn-feature__slider {
+  background-color: #222;
+  padding: 10px 75px;
+  color: #fff;
+}
+.my_page .fashion {
+  margin-top: 130px;
+}
+.my_page .fashion .title {
+  font-size: 64px;
+}
+.my_page .fashion .desc {
+  font-size: 20px;
+}
+.my_page .fashion .fashion-heading {
+  background-color: #d2b79e;
+  bottom: 10%;
+  left: -23%;
+  transform: translateX(100%);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 20px 100px;
+  gap: 0 20px;
+}
+.my_page .fashion .fashion-heading .title {
+  font-size: 48px;
+}
+.my_page .fashion .fashion-heading .desc {
+  font-size: 20px;
+}
+.my_page .product .container-main ul {
+  gap: 0 40px;
+}
+.my_page .product .container-main .product-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.my_page .deal {
+  background-color: #8b6e5a;
+  margin: 160px 0 110px;
+}
+.my_page .deal .deal-box {
+  padding-left: 50px;
+}
+.my_page .deal .deal-box .time {
+  gap: 0 30px;
+}
+.my_page .deal .deal-box .time .time-box {
+  border: 4px solid #222;
+  min-height: 120px;
+  min-width: 120px;
+  text-align: center;
+  display: grid;
+  place-content: center;
+}
+.my_page .deal .deal-box .deal-poster {
+  z-index: 1;
+  right: 5%;
+  bottom: 0;
+  content: "";
+}
+.my_page .follow {
+  overflow: hidden;
+}
+.my_page .about {
+  padding: 117px 0 229px;
+}
+.my_page .about .about-box {
+  gap: 0 20px;
+}
+.my_page .about .about-content {
+  background-color: #dbccbf;
+  padding: 20px 10px;
+  width: calc(32% - 20px);
+}
+.my_page .about .about-content .avatar {
+  width: 90px;
+  height: 90px;
+}
+.my_page .footer {
+  background-color: #412f28;
+  padding: 100px 0;
+}
+.my_page .footer .footer-name ul {
+  gap: 0 20px;
+}
+.my_page .footer .footer-name ul a {
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .my_page {
+    overflow: hidden;
+  }
+  .my_page .container-fluid {
+    padding: 0 !important;
+  }
+  .my_page .col-sp {
+    padding: 0 20px !important;
+  }
+  .my_page .about .about-content {
+    width: 48%;
+  }
+  .my_page .fashion .fashion-heading {
+    bottom: 0;
+    left: -85%;
+    mix-blend-mode: multiply;
+  }
+  .my_page .deal .deal-poster {
+    mix-blend-mode: overlay;
+    right: 0 !important;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .my_page {
+    overflow: hidden;
+  }
+  .my_page .container-fluid {
+    padding: 0 !important;
+  }
+  .my_page .col-sp {
+    padding: 0 20px !important;
+  }
+  .my_page .fashion .fashion-heading {
+    display: none !important;
+  }
+  .my_page .hero .heading {
+    padding: 0 !important;
+  }
+  .my_page .deal {
+    margin: 50px 0;
+  }
+  .my_page .deal .deal-poster {
+    mix-blend-mode: multiply;
+    right: 0 !important;
+  }
+  .my_page .product .product-menu {
+    overflow-x: scroll;
+    gap: 0 15px;
+  }
+  .my_page .about {
+    padding: 50px 0;
+  }
+  .my_page .about .about-content {
+    width: 100%;
+  }
+  .my_page .time {
+    flex-wrap: wrap;
+  }
+  .my_page .login {
+    display: none !important;
+  }
+  .my_page .footer {
+    padding: 30px 0;
+  }
+}/*# sourceMappingURL=style.css.map */
